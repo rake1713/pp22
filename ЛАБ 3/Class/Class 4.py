@@ -26,7 +26,8 @@ point2.show()
 
 
 
-point1.move(3, -1)
+point1.move(5,5)
+point1.move(6,6)
 point1.show() 
 
 

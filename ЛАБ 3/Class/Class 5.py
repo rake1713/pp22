@@ -1,11 +1,10 @@
 class Account:
-    def __init__(self, owner, balance=0):
+    def __init__(self, owner, balance=50):
         self.owner = owner  
         self.balance = balance  
 
     def deposit(self, amount):
-        if amount > 0:
-            self.balance += amount  
+        if amount > 0: 
             print(f"Deposited {amount}. New balance: {self.balance}")
         else:
             print("Deposit amount must be positive.")
